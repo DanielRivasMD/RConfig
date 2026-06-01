@@ -6,15 +6,5 @@
 # home
 export home="${HOME}"
 export config="${home}/.config"
-export archive="${home}/.archive"
-export in_situ="${archive}/in-situ"
-export ex_situ="${archive}/ex-situ"
-export in_silico="${archive}/in-silico"
 
 ####################################################################################################
-
-# load colors
-source "${in_silico}/.config/colors.sh"
-
-####################################################################################################
-
